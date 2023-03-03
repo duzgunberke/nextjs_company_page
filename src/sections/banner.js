@@ -11,12 +11,12 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-              Top Quality Dgital Products to Explore
+              M A K E &nbsp;  E V E N T S
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Chechk out the website find great software products and deals !!! Welcoem to meet
+            Etkinlik mi  düzeneleyeksiniz, canınız sıkılıyor ne yapsak mı diyorsunuz. Doğru yerdesiniz. Hayallerin Peşinde 🐲🦄
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button variant="primary">Keşfet</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />
