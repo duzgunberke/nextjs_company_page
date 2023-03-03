@@ -16,9 +16,9 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: 'Berke Düzgün',
+    title: 'Berke Düzgün',
+    designation: 'Founder & Tech Lead',
     socialProfile: [
       {
         id: 1,
@@ -43,9 +43,9 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Founder',
+    altText: 'Enes Sait Besler',
+    title: 'Enes Sait Besler',
+    designation: 'Software Engineer',
     socialProfile: [
       {
         id: 1,
@@ -70,9 +70,9 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Sinan Kerim Canan',
+    title: 'Sinan Kerim Canan',
+    designation: 'IOS Developer',
     socialProfile: [
       {
         id: 1,
@@ -97,9 +97,9 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: 'Lina Jutila',
-    title: 'Lina Jutila',
-    designation: 'Web Developer',
+    altText: 'Fatma Sultan Teke',
+    title: 'Fatma Sultan Teke',
+    designation: 'Business Manager',
     socialProfile: [
       {
         id: 1,
@@ -124,9 +124,9 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: 'Okan Özdebir',
+    title: 'Okan Özdebir',
+    designation: 'IOS Developer',
     socialProfile: [
       {
         id: 1,
@@ -151,9 +151,9 @@ const data = [
   {
     id: 6,
     imgSrc: Member6,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Adem Sonkaya',
+    title: 'Adem Sonkaya',
+    designation: 'Software Developer',
     socialProfile: [
       {
         id: 1,
@@ -182,8 +182,8 @@ export default function TeamSection() {
     <section>
       <Container>
         <SectionHeader 
-        slogan="Our Team" 
-        title="The most qualified and talented individuals"
+        slogan="Ekibimiz" 
+        title="En nitelikli ve yetenekli bireylerden oluşan ekibimizle sizlere en iyi hizmeti sunmaya çalışıyoruz."
         />
         <Grid sx={styles.grid}> 
           {data.map((item)=>(

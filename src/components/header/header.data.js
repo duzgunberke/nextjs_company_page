@@ -1,18 +1,18 @@
 export default [
   {
     path: 'home',
-    label: 'Home',
+    label: 'Anasayfa',
   },
   {
     path: 'feature',
-    label: 'Features',
+    label: 'Özellikler',
   },
   {
     path: 'pricing',
-    label: 'Pricing',
+    label: 'Ücretlendirme',
   },
   {
     path: 'testimonial',
-    label: 'Testimonial',
+    label: 'Tavsiyeler',
   },
 ];
