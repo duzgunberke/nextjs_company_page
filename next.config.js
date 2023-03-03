@@ -1,6 +1,8 @@
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
 const debug = process.env.NODE_ENV !== "production";
+const withPWA = require('next-pwa');
+
 module.exports = {
   exportPathMap: function () {
     return {
@@ -10,4 +12,15 @@ module.exports = {
   },
   assetPrefix: !debug ? 'https://anotherplanet-io.github.io/Next-React-Components/' : '',
 }
+
+module.exports = withPWA({
+  reactStrictMode: true,
+  pwa:{
+    dest:"public",
+    register:true,
+    skipWaiting:true,
+    disable:process.env.NODE_ENV === 'development'
+  }
+});
+
 module.exports = withPlugins([optimizedImages], { target: 'serverless' });
