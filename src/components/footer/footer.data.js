@@ -2,15 +2,15 @@ export default {
   menuItem: [
     {
       path: '/',
-      label: 'Home',
+      label: 'Anasayfa',
     },
     {
       path: '/',
-      label: 'Adversite',
+      label: 'Reklam Anlaşmaları',
     },
     {
       path: '/',
-      label: 'Supports',
+      label: 'Destek',
     },
     {
       path: '/',
@@ -18,7 +18,7 @@ export default {
     },
     {
       path: '/',
-      label: 'Contact',
+      label: 'İletişim',
     },
   ],
 };

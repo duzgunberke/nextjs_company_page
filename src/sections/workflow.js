@@ -10,13 +10,13 @@ import ArrowEven from "assets/arrowEven.svg";
 const data = [
   {
     id: 1,
-    title: "Set disbursement Instructions",
+    title: "Harcama Limitlerinizi Belirleyin",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 2,
-    title: "Assembly retrieves funds from your account",
+    title: "Projelerinizi Oluşturun",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },

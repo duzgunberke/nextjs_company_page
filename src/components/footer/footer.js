@@ -2,7 +2,7 @@
 import { jsx, Box, Container, Image, Text } from 'theme-ui';
 import { Link } from 'components/link';
 import data from './footer.data';
-import FooterLogo from 'assets/logo.svg';
+import FooterLogo from 'assets/logo_viveven_new-removebg.png';
 
 export default function Footer() {
   return (
@@ -10,7 +10,7 @@ export default function Footer() {
         <Container>
           <Box sx={styles.footer.footerBottomArea}>
             <Link path="/">
-              <Image src={FooterLogo} alt="Logo" />
+              <Image src={FooterLogo} alt="Logo" style={{height:40}} />
             </Link>
             <Box sx={styles.footer.menus}>
               <nav>
@@ -25,7 +25,7 @@ export default function Footer() {
               </nav>
             </Box>
             <Text sx={styles.footer.copyright}>
-                  Copyright by {new Date().getFullYear()} Company Name
+                  Copyright by {new Date().getFullYear()} Viveven
             </Text>
           </Box>
         </Container>

@@ -12,34 +12,34 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Hızlı Performans',
+    title: 'Hızlı Performans',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'Ürünlerimiz en optimize düzeyde çalışacak hızlı ve performanslı şekilde profesyonelce tasarlanmaktadır',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Profesyonel Abonelik',
+    title: 'Profesyonel Abonelik',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'Herkesin yazılıma erişiminin önemli olduğuna inanıyoruz. Özellikle dijital dünyanın günümüzde bu kadar hayatımızın parçası olduğu zamanda.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Ortaklık Anlaşması',
+    title: 'Ortaklık Anlaşması',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'Çeşitli noktalarda ortaklık yaptığımız öncü firmalar ve sponsorlarımız ile sizlere hizmet veriyoruz',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'Müşteri Desteği',
+    title: 'Müşteri Desteği',
     text:
-      'We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.',
+      'Müşterilerimiz ve iş ortaklarımız bizim için son derece önemlilerdir. Onlara her zaman destek ve yardımda bulunuyoruz.',
   },
 ];
 
@@ -48,8 +48,8 @@ export default function Feature() {
    <section sx={{variant: 'section.feature'}}>
       <Container>
         <SectionHeader 
-        slogan="Quality Features"
-        title="Amazing useful features"
+        slogan="Kalite Özelliklerimiz"
+        title="Şaşırtıcı Faydalı Özellikler"
         />
 
         <Grid sx={styles.grid}>

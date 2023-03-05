@@ -14,7 +14,7 @@ export default function Logo({ src, ...rest }) {
    }}
    {...rest}
    >
-     <Image src={src} alt="Landing page logo"/>
+     <Image src={src} alt="Viveven Logo"/>
    </Link>
   );
 }

@@ -280,24 +280,24 @@ export default function Package() {
   return (
     <section id="pricing" sx={{ variant: "section.pricing" }}>
       <Container>
-        <SectionHeader slogan="Pricing Plan" title="Chose your pricing plan" />
+        <SectionHeader slogan="Ürünlerimiz" title="Aktif Olarak Çalıştığımız Projelerden Bazıları" />
         <Flex sx={styles.buttonGroup}>
           <Box sx={styles.buttonGroupInner}>
             <button 
             className={state.active=='monthly' ? 'active' :'' }
             type="button"
-            aria-label="Monthly"
+            aria-label="Kendi Ürünlerimiz"
             onClick={()=>handlePricing('monthly')}
             >
-                Monthly Plan
+                Kendi Ürünlerimiz
             </button>
             <button 
             className={state.active=='annual' ? 'active' :'' }
             type="button"
-            aria-label="Annual"
+            aria-label="Anlaşmalı Ürünler"
             onClick={()=>handlePricing('annual')}
             >
-                Annual Plan
+                Anlaşmalı Ürünler
             </button>
           </Box>
         </Flex>
