@@ -11,10 +11,10 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-              M A K E &nbsp;  E V E N T S
+              V I V E V E N
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Etkinlik mi  düzeneleyeksiniz, canınız sıkılıyor ne yapsak mı diyorsunuz. Doğru yerdesiniz. Hayallerin Peşinde 🐲🦄
+            Yaptığımız işin dünyayı kurtarmadığının farkındayız, ama sanki dünyayı kurtaracakmışcasına emek harcayarak titizlikle sizlere hizmet sunuyoruz 🐲🦄
           </Text>
           <Button variant="primary">Keşfet</Button>
         </Box>

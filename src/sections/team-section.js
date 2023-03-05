@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 import Member1 from 'assets/team/member-1.png';
 import Member2 from 'assets/team/member-2.png';
@@ -22,9 +22,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/berkeduzgun/',
+        icon: <FaLinkedin />,
       },
       {
         id: 2,
@@ -49,9 +49,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/enessaitbesler/',
+        icon: <FaLinkedin />,
       },
       {
         id: 2,
