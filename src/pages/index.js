@@ -18,7 +18,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="MakeEvents" />
+          <SEO title="Viveven" />
           <Banner />
           <KeyFeature />
           <ServiceSection />

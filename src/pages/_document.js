@@ -11,7 +11,7 @@ class CustomDocument extends Document {
       <Html lang="en-US">
         <Head>
           <link rel="manifest" href="/manifest.json" />
-          <link rel="apple-touch-icon" href="/icon.png"></link>
+          <link rel="apple-touch-icon" href="/icon-512x512.png"></link>
           <meta name="theme-color" content="#fff" />
         </Head>
         <body>
