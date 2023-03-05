@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "build": "next build && next export",
     "postbuild": "next-sitemap",
     "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
