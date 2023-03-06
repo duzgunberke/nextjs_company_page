@@ -16,19 +16,19 @@ const data = [
   },
   {
     id: 2,
-    title: "Projelerinizi Oluşturun",
+    title: "Projenizi Planlayın",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 3,
-    title: "Assembly initiates disbursement",
+    title: "Teslimatı Onaylayın",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 4,
-    title: "Customer receives funds payment",
+    title: "Ödeme Şartlarını Belirleyin",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
@@ -39,8 +39,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="WHATS THE FUNCTION"
-          title="Meet the featue of our product"
+          slogan="İş Akışı Nasıl İlerliyor"
+          title="Süreç Yönetimimize Göz Atın"
           isWhite={true}
         />
         <Grid sx={styles.grid}>

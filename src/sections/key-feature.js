@@ -12,32 +12,32 @@ const data = [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Fast Performance',
-    title: 'Fast Performance',
+    altText: 'Hızlı Performans',
+    title: 'Hızlı Performans',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 2,
     imgSrc: Partnership,
-    altText: 'Partnership deal',
-    title: 'Partnership deal',
+    altText: 'Ortaklık Anlaşması',
+    title: 'Ortaklık Anlaşması',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 3,
     imgSrc: Subscription,
-    altText: 'Pro Subscription',
-    title: 'Pro Subscription',
+    altText: 'Profesyonel Planlama',
+    title: 'Profesyonel Planlama',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
   {
     id: 4,
     imgSrc: Support,
-    altText: 'Customer Support',
-    title: 'Customer Support',
+    altText: 'Müşteri Desteği',
+    title: 'Müşteri Desteği',
     text:
       'Get your blood tests delivered at home collect a sample from the your blood tests.',
   },
@@ -48,8 +48,8 @@ export default function KeyFeature() {
    <section sx={{variant:'section.keyFeature'}} id="feature">
     <Container>
       <SectionHeader 
-      slogan="Whats the function"
-      title="Meet the feature of our product"
+      slogan="İşlevimiz Nedir"
+      title="Ürünlerimizin özellikleri tanışın"
       />
       <Grid sx={styles.grid}>
         {data.map((item)=>(

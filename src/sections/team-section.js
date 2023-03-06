@@ -76,9 +76,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/sinankerimcanan/',
+        icon: <FaLinkedin />,
       },
       {
         id: 2,
@@ -103,9 +103,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/fatma-sultan-teke-3470911b4/',
+        icon: <FaLinkedin />,
       },
       {
         id: 2,
@@ -130,9 +130,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/okan-r/',
+        icon: <FaLinkedin />,
       },
       {
         id: 2,
@@ -157,9 +157,9 @@ const data = [
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/adem-sonkaya-53a20a223/',
+        icon: <FaLinkedin />,
       },
       {
         id: 2,
@@ -183,7 +183,7 @@ export default function TeamSection() {
       <Container>
         <SectionHeader 
         slogan="Ekibimiz" 
-        title="En nitelikli ve yetenekli bireylerden oluşan ekibimizle sizlere en iyi hizmeti sunmaya çalışıyoruz."
+        title="Nitelikli ve yetenekli bireylerden oluşan ekibimizle sizlere en iyi hizmeti sunmaya çalışıyoruz."
         />
         <Grid sx={styles.grid}> 
           {data.map((item)=>(

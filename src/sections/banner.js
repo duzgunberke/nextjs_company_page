@@ -1,17 +1,32 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
+import { keyframes } from '@emotion/react'
 import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 
 export default function Banner() {
+  const textclip = keyframes({to: {backgroundPosition: '200% center',}}) 
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
-              V I V E V E N
+          <Heading as="h1" variant="heroPrimary" sx={{
+            textTransform: 'uppercase',
+            background: 'linear-gradient(225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%)',
+            backgroundSize: 'auto auto',
+            backgroundClip: 'border-box',
+            backgroundSize: '200% auto',
+            color: '#fff',
+            backgroundClip: 'text',
+            textFillColor: 'transparent',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            display: 'inline-block',
+            animation: `${textclip} 2s linear infinite`,
+          }}>
+          V I V E V E N
           </Heading>
           <Text as="p" variant="heroSecondary">
             Yaptığımız işin dünyayı kurtarmadığının farkındayız, ama sanki dünyayı kurtaracakmışcasına emek harcayarak titizlikle sizlere hizmet sunuyoruz 🐲🦄
