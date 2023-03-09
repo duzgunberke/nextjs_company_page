@@ -7,9 +7,9 @@ import shapePattern from 'assets/shape-pattern2.png';
 
 const data = {
   subTitle: 'Neler Sunuyoruz',
-  title: "İlgi alanlarınıza uygun etkinlikler. Kendinizi geliştirmek için, eğlenmek için MakeEvents'a adım atın.",
+  title: "Herkes İçin Etkinlik",
   description:
-    'Deneme yazısı.',
+    "İlgi alanlarınıza uygun etkinlikler. Kendinizi geliştirmek için, eğlenmek için MakeEvents'a adım atın.",
   btnName: 'Hadı Başlayalım',
   btnURL: '#',
 };

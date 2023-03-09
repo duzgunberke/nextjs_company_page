@@ -28,18 +28,18 @@ const data = {
     {
       id: 1,
       imgSrc: Smart,
-      altText: "Smart Features",
-      title: "Smart Features",
+      altText: "İnovatif Düşünce",
+      title: "İnovatif Düşünce",
       text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+        "Bilgimizi faydalı ve ekonomik olarak toplumum yararına dönüştürmek istemekteyiz. Bu nedenle teknik, sosyal ve ekonomik olarak bir takım süreçler ile geliştirme sürecimizi yürütüyoruz.",
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: "Secure Contents",
-      title: "Secure Contents",
+      altText: "Gizlilik ve Güvenlik",
+      title: "Gizlilik ve Güvenlik",
       text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+        "Gizliliğiniz ve güvenliğiniz bizim için son derece önemlidir. Bu doğrultuda, tüm verileriniz şifrelenmiş ve güvenli bir şekilde saklanmaktadır.",
     },
   ],
 };

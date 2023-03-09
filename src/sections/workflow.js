@@ -12,25 +12,25 @@ const data = [
     id: 1,
     title: "Harcama Limitlerinizi Belirleyin",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Projeniz için gereken harcama limitlerini belirleyin ve projenizi başlatma adımlarını atalım.",
   },
   {
     id: 2,
     title: "Projenizi Planlayın",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Profesyonel ekibimiz ile projenizi planlayın ve ihtiyacınıza yönelik projenizin detaylarını belirleyin.",
   },
   {
     id: 3,
     title: "Teslimatı Onaylayın",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Projenin detaylarını belirledikten sonra projenizin teslimatını onaylayın ve projenizi başlatın.",
   },
   {
     id: 4,
     title: "Ödeme Şartlarını Belirleyin",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Süreç içerisnde size sunduğumuz ödeme seçeneklerinden birini seçerek projenizin ödeme şartlarını belirleyin.",
   },
 ];
 

@@ -13,42 +13,42 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'Modern Görünüm & Trendlerde Bir Tasarım',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      "Viveven'dan aldığım hizmetlerden çok memnunum. Sürekli gelişen ve yenilenen bir sistem. İhtiyaçlarımıza yönelik çözümler sunuyorlar.",
     avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Miray Duman',
+    designation: '@mirayduman',
     review: 4,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'Süper Hızlı & Kolay Kullanım',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      "Tahmin ettiğimden çok daha iyi bir hizmet. İhtiyaçlarınıza yönelik hızlı çözümler sunuyorlar.",
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Ahmet Oflaz',
+    designation: '@ahmetoflaz',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Son Derece Kullancı Dostu',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      "Uygulamamızın kolay anlaşılır bir arayüzü var. Şirketimizin ihtiyacına yönelik çözümler sunuyorlar.",
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Süleyman Canan',
+    designation: '@süleymancanan',
     review: 5,
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
+    title: 'İhtiyaçalarımıza Yönelik Çözümler',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      "İsteklerimizi belirttikten sonra, hızlı bir şekilde çözümler ürettiler. Viveven'in sunduğu hizmetlerden çok memnunum.",
     avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Muhammed Gülay',
+    designation: '@muhammedgulay',
     review: 4,
   },
 ];

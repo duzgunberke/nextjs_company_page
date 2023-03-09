@@ -15,7 +15,7 @@ const data = [
     altText: 'Hızlı Performans',
     title: 'Hızlı Performans',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Yazılım dillerinden bağımsız en optimizi mimaride tasarlanmış ürünler',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const data = [
     altText: 'Ortaklık Anlaşması',
     title: 'Ortaklık Anlaşması',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Yatırımcılarımız ile birlikte sizlerle de şirketimizi büyütüyoruz',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const data = [
     altText: 'Profesyonel Planlama',
     title: 'Profesyonel Planlama',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Sizin ihtiyaçlarınıza göre profesyonel planlama yaparak sizlere en iyi hizmeti sunuyoruz.',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: 'Müşteri Desteği',
     title: 'Müşteri Desteği',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Olası bir sorun durumunda her daim destek ekibimiz ile yanınızdayız',
   },
 ];
 
