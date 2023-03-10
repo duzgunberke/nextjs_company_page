@@ -13,12 +13,18 @@ import WorkFlow from '../sections/workflow';
 import Package from '../sections/package';
 import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
+import { NextSeo } from 'next-seo';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="Viveven" />
+          {/* <SEO title="Viveven" /> */} 
+          <NextSeo 
+            title="Viveven"
+            description="Viveven Landing Page"
+            canonical="https://viveven.com"
+          />
           <Banner />
           <KeyFeature />
           <ServiceSection />
