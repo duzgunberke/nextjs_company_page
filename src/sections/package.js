@@ -278,7 +278,7 @@ export default function Package() {
   };
 
   return (
-    <section id="pricing" sx={{ variant: "section.pricing" }}>
+    <section id="products" sx={{ variant: "section.products" }}>
       <Container>
         <SectionHeader slogan="Ürünlerimiz" title="Aktif Olarak Çalıştığımız Projelerden Bazıları" />
         <Flex sx={styles.buttonGroup}>
