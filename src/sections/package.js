@@ -47,7 +47,7 @@ const packages = {
       id: 2,
       name: "Linayzer",
       description: "Kendiniz için kariyerinizi analiz edin",
-      priceWithUnit: "$10",
+      priceWithUnit: "$5",
       buttonText: "Aramıza Katıl",
       anotherOption: "Memnun Kalmassanız Para İade Garantisi",
       points: [
@@ -117,15 +117,15 @@ const packages = {
   annual: [
     {
       id: 1,
-      name: "Free Plan",
-      description: "For Small teams or office",
-      buttonText: "Start free trail",
-      priceWithUnit: "$0",
+      name: "ECommerce System",
+      description: "For Small company or office",
+      buttonText: "Get Offer",
+      priceWithUnit: "$2000",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Infrastructure for eCommerce",
           isAvailable: true,
         },
         {
@@ -150,10 +150,10 @@ const packages = {
     },
     {
       id: 2,
-      name: "Business king",
+      name: "Company Page",
       description: "For Enterprise business",
-      priceWithUnit: "$25",
-      buttonText: "Create account",
+      priceWithUnit: "$1000",
+      buttonText: "Get Offer",
       anotherOption: "Or Start 10 Days trail",
       points: [
         {
@@ -184,11 +184,11 @@ const packages = {
     },
     {
       id: 3,
-      header: "Suggested",
+      header: "Loading...",
       headerIcon: <IoIosCheckmarkCircle />,
       name: "Pro Master",
       description: "For pro level developers",
-      priceWithUnit: "$39",
+      priceWithUnit: "$?",
       buttonText: "Create account",
       anotherOption: "Or Start 10 Days trail",
       points: [
