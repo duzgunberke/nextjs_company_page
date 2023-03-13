@@ -8,8 +8,8 @@ export default [
     label: 'Özellikler',
   },
   {
-    path: 'pricing',
-    label: 'Ücretlendirme',
+    path: 'products',
+    label: 'Ürünlerimiz',
   },
   {
     path: 'testimonial',
