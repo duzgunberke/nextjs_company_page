@@ -124,8 +124,8 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: 'Okan Özdebir',
-    title: 'Okan Özdebir',
+    altText: 'Okan Özdemir',
+    title: 'Okan Özdemir',
     designation: 'IOS Developer',
     socialProfile: [
       {
