@@ -175,6 +175,33 @@ const data = [
       },
     ],
   },
+  {
+    id: 6,
+    imgSrc: Member5,
+    altText: 'Ravza Doğan',
+    title: 'Ravza Doğan',
+    designation: 'Software Developer',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'linkedin',
+        path: 'https://www.linkedin.com/in/%C5%9F-ravza-do%C4%9Fan-84b324176/',
+        icon: <FaLinkedin />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
+    ],
+  },
 ];
 
 export default function TeamSection() {
