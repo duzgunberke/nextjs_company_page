@@ -11,6 +11,8 @@ import Member3 from 'assets/team/member-3.png';
 import Member4 from 'assets/team/member-4.png';
 import Member5 from 'assets/team/member-5.png';
 import Member6 from 'assets/team/member-6.png';
+import Member7 from 'assets/team/member-7.png';
+
 
 const data = [
   {
@@ -176,11 +178,11 @@ const data = [
     ],
   },
   {
-    id: 6,
-    imgSrc: Member5,
+    id: 7,
+    imgSrc: Member7,
     altText: 'Ravza Doğan',
     title: 'Ravza Doğan',
-    designation: 'Software Developer',
+    designation: 'Frontend Developer',
     socialProfile: [
       {
         id: 1,
