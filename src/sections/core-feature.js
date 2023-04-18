@@ -2,16 +2,16 @@
 import { jsx, Container, Box, Image } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 
-import FeatureThumb from 'assets/core-feature.png';
+import FeatureThumb from 'assets/rounded-vivevent.jpeg';
 import shapePattern from 'assets/shape-pattern2.png';
 
 const data = {
   subTitle: 'Neler Sunuyoruz',
   title: "Herkes İçin Etkinlik",
   description:
-    "İlgi alanlarınıza uygun etkinlikler. Kendinizi geliştirmek için, eğlenmek için MakeEvents'a adım atın.",
+    "İlgi alanlarınıza uygun etkinlikler. Kendinizi geliştirmek için, eğlenmek için VivEvent'e adım atın.",
   btnName: 'Hadı Başlayalım',
-  btnURL: '#',
+  btnURL: 'https://vivevent.fly.dev/',
 };
 
 export default function CoreFeature() {

@@ -12,7 +12,7 @@ const packages = {
   monthly: [
     {
       id: 1,
-      name: "MakeEvents",
+      name: "VivEvent",
       description: "Etkinliklerinizi kolayca yönetin",
       buttonText: "Aramıza Katıl",
       priceWithUnit: "$0",
