@@ -31,7 +31,7 @@ export default function Banner() {
           <Text as="p" variant="heroSecondary">
             Yaptığımız işin dünyayı kurtarmadığının farkındayız, ama sanki dünyayı kurtaracakmışcasına emek harcayarak titizlikle sizlere hizmet sunuyoruz 🐲🦄
           </Text>
-          <Button variant="primary">Keşfet</Button>
+          {/* <Button variant="primary">Keşfet</Button> */}
         </Box>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />
