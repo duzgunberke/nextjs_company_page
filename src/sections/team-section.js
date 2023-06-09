@@ -9,7 +9,6 @@ import Member1 from 'assets/team/member-1.png';
 import Member2 from 'assets/team/member-2.png';
 import Member3 from 'assets/team/member-3.png';
 import Member4 from 'assets/team/member-4.png';
-import Member5 from 'assets/team/member-5.png';
 import Member6 from 'assets/team/member-6.png';
 import Member7 from 'assets/team/member-7.png';
 
@@ -125,33 +124,6 @@ const data = [
   },
   {
     id: 5,
-    imgSrc: Member5,
-    altText: 'Okan Özdemir',
-    title: 'Okan Özdemir',
-    designation: 'IOS Developer',
-    socialProfile: [
-      {
-        id: 1,
-        name: 'linkedin',
-        path: 'https://www.linkedin.com/in/okan-r/',
-        icon: <FaLinkedin />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
-    ],
-  },
-  {
-    id: 6,
     imgSrc: Member6,
     altText: 'Adem Sonkaya',
     title: 'Adem Sonkaya',
